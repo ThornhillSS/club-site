@@ -1,0 +1,142 @@
+{
+    "club": {
+        "name": "TSS Computer Club",
+        "logo": "/assets/logo.png"
+    },
+    "navigation": [
+        {
+            "name": "About",
+            "href": "about"
+        },
+        {
+            "name": "Languages",
+            "href": "languages"
+        },
+        {
+            "name": "Meet the Execs",
+            "href": "execs"
+        }
+    ],
+    "callToAction": {
+        "text": "Get Started",
+        "href": "https://tssoj.ca/discord"
+    },
+    "mainHero": {
+        "title": "Love coding?ㅤㅤ",
+        "subtitle": "Join the computer club!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
+        "img": "/assets/code-background.jpg",
+        "primaryAction": {
+            "text": "Learn More",
+            "href": "https://tssoj.ca/discord"
+        },
+        "secondaryAction": {
+            "text": "Contact Us",
+            "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+    },
+    "about": {
+        "title": "TSS Computer Club",
+        "info": [
+            {
+                "title": "Expand your horizons!",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
+                "img": "/assets/about1.jpg"
+            },
+            {
+                "title": "Create something cool!",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
+                "img": "/assets/about2.jpg"
+            }
+        ]
+    },
+    "languages": {
+        "title": "Latest & greatest ",
+        "subtitle": "Help is available for the most popular programming languages!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
+        "items": [
+            {
+                "name": "C / C++",
+                "description": "A low-level and general-purpose programming language that is ideal for developing firmware or portable applications.",
+                "icon": "/assets/cplusplus-logo.png"
+            },
+            {
+                "name": "Python",
+                "description": "A high-level and general-purpose programming language often used to build websites and software, automate tasks, and conduct data analysis.",
+                "icon": "/assets/python-logo.png"
+            },
+            {
+                "name": "Java",
+                "description": "A general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies.",
+                "icon": "/assets/java-icon.png"
+            },
+            {
+                "name": "Typescript",
+                "description": "A strongly typed, object oriented, compiled programming language that is a superset of JavaScript.",
+                "icon": "/assets/ts-icon.png"
+            }
+        ]
+    },
+    "execs": {
+        "title": "Meet the Execs",
+        "details": [
+            {
+                "name": "Danyal A",
+                "grade": "Grade 12",
+                "position": "Executive",
+                "languages": [
+                    "C++",
+                    "JavaScript",
+                    "HTML5",
+                    "CSS3"
+                ]
+            },
+            {
+                "name": "Adam C",
+                "grade": "Grade 12",
+                "position": "President",
+                "languages": [
+                    "C#",
+                    "C",
+                    "Java",
+                    "HTML5"
+                ]
+            },
+            {
+                "name": "Timothy I",
+                "grade": "Grade 12",
+                "position": "Executive",
+                "languages": [
+                    "TypeScript",
+                    "C++",
+                    "Java",
+                    "Python"
+                ]
+            },
+            {
+                "name": "Ryan J",
+                "grade": "Grade 12",
+                "position": "Executive",
+                "languages": [
+                    "C++",
+                    "Python",
+                    "Arduino",
+                    "Java"
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "sections": [
+            {
+                "name": "Back to Top",
+                "href": "#"
+            }
+        ],
+        "socialMedia": {
+            "github": "https://github.com/Terra-rian",
+            "website": "https://tssoj.ca/",
+            "discord": "https://discord.gg/C2feYBA"
+        }
+    }
+}

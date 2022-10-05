@@ -1,0 +1,155 @@
+{
+    "extends": ["airbnb-base", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "rules": {
+        "eol-last": 0,
+        "linebreak-style": 0,
+        "indent": 0,
+        "no-plusplus": 0,
+        "max-len": 0,
+        "arrow-body-style": 0,
+        "object-curly-newline": 0,
+        "import/no-extraneous-dependencies": 0,
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "comma-spacing": "error",
+        "comma-style": "error",
+        "curly": [
+            "error",
+            "multi-line",
+            "consistent"
+        ],
+        "dot-location": [
+            "error",
+            "property"
+        ],
+        "handle-callback-err": "off",
+        "max-nested-callbacks": [
+            "error",
+            {
+                "max": 5
+            }
+        ],
+        "max-statements-per-line": [
+            "error",
+            {
+                "max": 2
+            }
+        ],
+        "no-console": "off",
+        "no-empty-function": "error",
+        "no-floating-decimal": "error",
+        "no-lonely-if": "error",
+        "no-multi-spaces": "error",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 2,
+                "maxEOF": 1,
+                "maxBOF": 0
+            }
+        ],
+        "no-unused-vars": "off",
+        "no-trailing-spaces": [
+            "error"
+        ],
+        "no-var": "error",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "prefer-const": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "space-before-blocks": "error",
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "space-in-parens": "error",
+        "space-infix-ops": "error",
+        "space-unary-ops": "error",
+        "spaced-comment": "error",
+        "yoda": "error"
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "BigInt": true
+    },
+    "overrides": [
+        {
+            "files": ["**/*.ts", "**/*.tsx"],
+            "plugins": ["@typescript-eslint", "unused-imports"],
+            "extends": [
+                "airbnb-typescript",
+                "next/core-web-vitals"
+            ],
+            "parserOptions": {
+                "project": "./tsconfig.json"
+            },
+            "rules": {
+                "react/destructuring-assignment": "off",
+                "jsx-a11y/anchor-is-valid": "off",
+                "react/require-default-props": "off",
+                "react/jsx-props-no-spreading": "off",
+                "@next/next/no-img-element": "off",
+                "import/order": [
+                    "error",
+                    {
+                        "groups": ["builtin", "external", "internal"],
+                        "pathGroups": [
+                            {
+                                "pattern": "react",
+                                "group": "external",
+                                "position": "before"
+                            }
+                        ],
+                        "pathGroupsExcludedImportTypes": ["react"],
+                        "newlines-between": "always",
+                        "alphabetize": {
+                            "order": "asc",
+                            "caseInsensitive": true
+                        }
+                    }
+                ],
+                "import/prefer-default-export": "off",
+                "class-methods-use-this": "off",
+                "@typescript-eslint/no-unused-vars": "off",
+                "@typescript-eslint/indent": "off",
+                "@typescript-eslint/lines-between-class-members": "off",
+                "@typescript-eslint/explicit-module-boundary-types": "off",
+                "@typescript-eslint/no-shadow": [
+                    "error",
+                    {
+                        "allow": [
+                            "err",
+                            "resolve",
+                            "reject"
+                        ]
+                    }
+                ],
+                "unused-imports/no-unused-imports": "error",
+                "unused-imports/no-unused-vars": [
+                    "error",
+                    {
+                        "argsIgnorePattern": "^_"
+                    }
+                ]
+            }
+        }
+    ]
+}
