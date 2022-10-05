@@ -34,5 +34,4 @@ local
 *.pem
 Thumbs.db
 yarn.lock
-src/data/ids.json
 CompClubWebsite.code-workspace
