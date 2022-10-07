@@ -38,7 +38,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="flex items-center mt-6">
-                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
+                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900">
                         &copy; {new Date().getFullYear()} designed by{' '}
                         <a href="https://github.com/Terra-rian" target='_blank' rel="noreferrer">
                             Timothy I
