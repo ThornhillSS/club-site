@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-const useResponsiveSize = () => {
+export const useResponsiveSize = () => {
     const [width, setWidth] = useState(0);
     const [height, setHeight] = useState(0);
 
@@ -16,5 +16,3 @@ const useResponsiveSize = () => {
 
     return { width, height };
 };
-
-export default useResponsiveSize;

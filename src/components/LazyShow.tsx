@@ -48,7 +48,7 @@ const LazyShow = ({ children }: { children: string | number | React.ReactElement
     }, [onScreen, controls]);
 
     return (
-        <motion.div className="lazy-div" ref={rootRef} initial={{ opacity: 0, x: -50 }} animate={controls}>
+        <motion.div className={'lazy-div'} ref={rootRef} initial={{ opacity: 0, x: -50 }} animate={controls}>
             {children}
         </motion.div>
     );

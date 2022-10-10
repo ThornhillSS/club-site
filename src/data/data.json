@@ -89,7 +89,12 @@
                     "JavaScript",
                     "HTML5",
                     "CSS3"
-                ]
+                ],
+                "socials": {
+                    "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                }
             },
             {
                 "name": "Adam C",
@@ -100,7 +105,12 @@
                     "C",
                     "Java",
                     "HTML5"
-                ]
+                ],
+                "socials": {
+                    "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                }
             },
             {
                 "name": "Timothy I",
@@ -111,7 +121,12 @@
                     "C++",
                     "Java",
                     "Python"
-                ]
+                ],
+                "socials": {
+                    "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                }
             },
             {
                 "name": "Ryan J",
@@ -122,7 +137,30 @@
                     "Python",
                     "Arduino",
                     "Java"
-                ]
+                ],
+                "socials": {
+                    "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                }
+            }
+        ]
+    },
+    "alumni": {
+        "title": "Meet the Alumni",
+        "details": [
+            {
+                "name": "adam chen",
+                "position" : "President",
+                "graduationYear": "69420",
+                "university": "your mom",
+                "program": "gender studies",
+                "profilePicture": "https://cdn.discordapp.com/avatars/474727196980674561/b194a794474760216601b8e37629f507.png",
+                "socials": {
+                    "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                }
             }
         ]
     },
@@ -134,7 +172,7 @@
             }
         ],
         "socialMedia": {
-            "github": "https://github.com/Terra-rian",
+            "github": "https://github.com/ThornhillSS",
             "website": "https://tssoj.ca/",
             "discord": "https://discord.gg/C2feYBA"
         }

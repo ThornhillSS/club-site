@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 import { useCanvasContext } from '../hooks/useCanvas';
-import useResponsiveSize from '../hooks/useResponsiveSize';
+import { useResponsiveSize } from '../hooks/useResponsiveSize';
 import WaveObj from '../utils/wave';
 
 const Wave: FC = () => {
@@ -12,8 +12,8 @@ const Wave: FC = () => {
     let frequency = 0.013;
 
     const waves = {
-        frontWave: new WaveObj([0.0211, 0.028, 0.015], 'rgb(236, 71, 85, 0.1)'),
-        backWave: new WaveObj([0.0122, 0.018, 0.005], 'rgb(249, 168, 168, 0.1)'),
+        frontWave: new WaveObj([0.0211, 0.028, 0.015], 'rgb(14, 165, 233, 0.1)'),
+        backWave: new WaveObj([0.0122, 0.018, 0.005], 'rgb(59, 130, 246, 0.1)'),
     };
 
     if (context) {
