@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className={'flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12'}>
                     {sections.map((section, index) => (
-                        <a key={`${section.name}-${index}`} href={section.href} className={'hover:text-sky-500 text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white'}>
+                        <a key={`${section.name}-${index}`} href={section.href} className={'hover:text-sky-500 text-base cursor-pointer leading-4 text-gray-800'}>
                             {section.name}
                         </a>
                     ))}
@@ -37,11 +37,13 @@ const Footer = () => {
                         </svg>
                     </a>
                 </div>
-                <div className={'flex items-center mt-6'}>
+                <div className={'flex items-center mt-6 flex-col'}>
                     <p className={'mt-6 text-xs lg:text-sm leading-none text-gray-900'}>
-                        &copy; {new Date().getFullYear()} designed by{' '}
-                        <a className={'text-sky-500 hover:text-sky-700'} href='https://github.com/Terra-rian' target='_blank' rel='noreferrer'>
-                            Timothy I
+                        Made with ❤ by our executives!
+                    </p>
+                    <p>
+                        <a className={'text-sky-500 hover:text-sky-700'} href='https://github.com/ThornhillSS/club-site' target='_blank' rel='noreferrer'>
+                            View source code.
                         </a>
                     </p>
                 </div>
