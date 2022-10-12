@@ -1,6 +1,9 @@
 import React from 'react';
 
+import ReactMarkdown from 'react-markdown';
+
 import config from '../data/data.json';
+import NonSSR from './NonSSR';
 
 const Languages = () => {
     const { languages } = config;
@@ -17,7 +20,11 @@ const Languages = () => {
                         {subtitle}
                     </p>
                     <p className={'mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto'}>
-                        {description}
+                        <NonSSR>
+                            <ReactMarkdown>
+                                {description}
+                            </ReactMarkdown>
+                        </NonSSR>
                     </p>
                 </div>
 

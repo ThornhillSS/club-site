@@ -1,6 +1,6 @@
 {
   "club": {
-    "name": "TSS Computer Club",
+    "name": "Thornhill Computer Club",
     "logo": "/assets/logo.png"
   },
   "navigation": [
@@ -9,11 +9,11 @@
       "href": "about"
     },
     {
-      "name": "Languages",
+      "name": "Help",
       "href": "languages"
     },
     {
-      "name": "Meet the Execs",
+      "name": "Meet the Team",
       "href": "execs"
     }
   ],
@@ -25,10 +25,19 @@
     "titles": [
       "Love coding?",
       "Wanna learn coding?",
-      "Come hang out with other coders!"
+      "Come hang out with other coders!",
+      "Coding is great. So...",
+      "Want to try something new?",
+      "101001",
+      "*bleep, bloop*",
+      "Like that O(1) complexity?",
+      "git gud.",
+      "We spent too much time on this site.",
+      "You really should ↴",
+      "boo. scared ya"
     ],
     "subtitle": "Join the Computer Club!",
-    "description": "Computer Club @ TSS is a place where you can learn & talk about topics related to Computer Science, Programming, Tech, *or anything you want really.*",
+    "description": "Computer Club at TSS is a place where you can learn n' talk about topics related to Computer Science, Programming, Tech, or anything you want really. Come join our community by clicking the links below! **We have meetings on Fridays after school (room 221), so you can just drop by as well.**",
     "img": "/assets/code-background.jpg",
     "primaryAction": {
       "text": "Hop in our Discord",
@@ -40,24 +49,24 @@
     }
   },
   "about": {
-    "title": "At Computer Club",
+    "title": "At TCC",
     "info": [
       {
-        "title": "Expand your horizons!",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
-        "img": "/assets/about1.jpg"
+        "title": "Create something cool!",
+        "description": "Are you already well-versed in coding? Want to take it further and build something? Join the **development** division, and we'll take you through how to create real-world applications & software!",
+        "img": "/assets/about2.jpg"
       },
       {
-        "title": "Create something cool!",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
-        "img": "/assets/about2.jpg"
+        "title": "Think outside of the box...",
+        "description": "Do solving puzzles pique your interest more? Want to know how to design intricate and useful algorithms? Join us in the **competitive** division, and we will guide you through the world of competitive programming!",
+        "img": "/assets/about1.jpg"
       }
     ]
   },
   "languages": {
-    "title": "Latest & greatest ",
-    "subtitle": "Help is available for the most popular programming languages!",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus nisi nec nulla euismod feugiat. Fusce finibus efficitur euismod. Sed consequat ante nisi, vel vehicula velit auctor eget. Sed non aliquet sem. In hac habitasse platea dictumst. Vivamus blandit accumsan faucibus.",
+    "title": "Need help with coding?",
+    "subtitle": "We're here to help!",
+    "description": "We know coding can be tough sometimes, and we're here to help! Just hop in our weekly meetings, and we're sure we can clear up your questions. *Just keep in mind, we won't work on projects for you, but we can lend assistance when needed.*",
     "items": [
       {
         "name": "C / C++",
@@ -78,20 +87,25 @@
         "name": "Typescript",
         "description": "A strongly typed, object oriented, compiled programming language that is a superset of JavaScript.",
         "icon": "/assets/ts-icon.png"
+      },
+      {
+        "name": "And others too!",
+        "description": "Odds are, we'll be familiar with the problem that you're trying to solve. If not, we might be able to point you to where the solution might be :)",
+        "icon": "/assets/question-icon.png"
       }
     ]
   },
   "execs": {
-    "title": "Meet the Execs",
+    "title": "Meet the Team",
     "details": [
       {
         "name": "Danyal Amini",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["C++", "JavaScript", "HTML5", "CSS3"],
+        "languages": ["Competitive", "JavaScript", "C++", "Java"],
         "socials": {
           "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "github": "https://github.com/MysticalX99",
           "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       },
@@ -99,21 +113,21 @@
         "name": "Adam Chen",
         "grade": "Grade 12",
         "position": "President",
-        "languages": ["C#", "C", "Java", "HTML5"],
+        "languages": ["Competitive & Development", "C#", "Java", "C++"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "instagram": "https://www.instagram.com/theadamchen/",
+          "github": "https://github.com/encodeous",
+          "personalSite": "https://encodeous.cc"
         }
       },
       {
         "name": "Timothy Ivtchenko",
         "grade": "Grade 12",
-        "position": "Executive",
-        "languages": ["TypeScript", "C++", "Java", "Python"],
+        "position": "Vice President",
+        "languages": ["Development", "TypeScript", "C++", "Java"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "instagram": "https://www.instagram.com/tim.ivtch/",
+          "github": "https://github.com/Terra-rian",
           "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       },
@@ -121,10 +135,10 @@
         "name": "Ryan Javid",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["C++", "Python", "Arduino", "Java"],
+        "languages": ["Competitive", "Python", "Java", "C++"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "instagram": "https://www.instagram.com/ryanj_31/",
+          "github": "https://github.com/Ryan-Sadeghi-Javid",
           "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       }

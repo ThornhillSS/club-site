@@ -1,6 +1,9 @@
 import React from 'react';
 
+import ReactMarkdown from 'react-markdown';
+
 import config from '../data/data.json';
+import NonSSR from './NonSSR';
 
 const About = () => {
     const { about } = config;
@@ -24,7 +27,13 @@ const About = () => {
                         <h3 className={'text-3xl text-gray-800 font-bold leading-none mb-3'}>
                             {firstInfo?.title}
                         </h3>
-                        <p className={'text-gray-600'}>{firstInfo?.description}</p>
+                        <p className={'text-gray-600'}>
+                            <NonSSR>
+                                <ReactMarkdown>
+                                    {firstInfo!.description}
+                                </ReactMarkdown>
+                            </NonSSR>
+                        </p>
                     </div>
                     <div className={'w-full sm:w-1/2 p-6'}>
                         <img className={'h-6/6'} src={firstInfo?.img} alt={firstInfo?.title} />
@@ -40,7 +49,13 @@ const About = () => {
                             <h3 className={'text-3xl text-gray-800 font-bold leading-none mb-3'}>
                                 {secondInfo?.title}
                             </h3>
-                            <p className={'text-gray-600 mb-8'}>{secondInfo?.description}</p>
+                            <p className={'text-gray-600 mb-8'}>
+                                <NonSSR>
+                                    <ReactMarkdown>
+                                        {secondInfo!.description}
+                                    </ReactMarkdown>
+                                </NonSSR>
+                            </p>
                         </div>
                     </div>
                 </div>

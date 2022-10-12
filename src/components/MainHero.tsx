@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import ReactMarkdown from 'react-markdown';
 
@@ -8,13 +8,23 @@ import NonSSR from './NonSSR';
 
 const MainHero = () => {
     const { mainHero } = config;
+    function getText() {
+        return mainHero.titles[Math.floor(Math.random() * mainHero.titles.length)]!;
+    }
+    const [text, setText] = useState(getText());
+    useEffect(() => {
+        const interval = setInterval(() => setText(getText()), 5000);
+        return () => {
+            clearInterval(interval);
+        };
+    }, []);
     return (
         <main className={'mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'}>
             <div className={'sm:text-center lg:text-left'}>
                 <h1 className={'text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl'}>
                     <NonSSR>
-                        <span className={'text-4xl block'}>
-                            {config.mainHero.titles[Math.floor(Math.random() * config.mainHero.titles.length)]}
+                        <span className={'text-4xl block transition'}>
+                            {text}
                         </span>
                     </NonSSR>
                     <span className={'block text-sky-500 xl:inline'}>
