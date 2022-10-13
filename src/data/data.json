@@ -34,7 +34,7 @@
       "git gud.",
       "We spent too much time on this site.",
       "You really should ↴",
-      "boo. scared ya"
+      "boo. scared ya!"
     ],
     "subtitle": "Join the Computer Club!",
     "description": "Computer Club at TSS is a place where you can learn n' talk about topics related to Computer Science, Programming, Tech, or anything you want really. Come join our community by clicking the links below! **We have meetings on Fridays after school (room 221), so you can just drop by as well.**",
@@ -104,9 +104,9 @@
         "position": "Executive",
         "languages": ["Competitive", "JavaScript", "C++", "Java"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "instagram": "https://www.instagram.com/tsscomputerclub/",
           "github": "https://github.com/MysticalX99",
-          "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "personalSite": "https://tssoj.ca/"
         }
       },
       {
@@ -128,7 +128,7 @@
         "socials": {
           "instagram": "https://www.instagram.com/tim.ivtch/",
           "github": "https://github.com/Terra-rian",
-          "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "personalSite": "https://tssoj.ca/"
         }
       },
       {
@@ -139,7 +139,7 @@
         "socials": {
           "instagram": "https://www.instagram.com/ryanj_31/",
           "github": "https://github.com/Ryan-Sadeghi-Javid",
-          "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "personalSite": "https://tssoj.ca/"
         }
       }
     ]
@@ -155,9 +155,9 @@
         "program": "gender studies",
         "profilePicture": "https://cdn.discordapp.com/avatars/474727196980674561/b194a794474760216601b8e37629f507.png",
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "instagram": "https://www.instagram.com/tsscomputerclub/",
           "github": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "personalSite": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          "personalSite": "https://tssoj.ca/"
         }
       }
     ]
