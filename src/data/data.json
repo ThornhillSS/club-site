@@ -52,13 +52,18 @@
     "title": "At TCC",
     "info": [
       {
-        "title": "Create something cool!",
-        "description": "Are you already well-versed in coding? Want to take it further and build something? Join the **development** division, and we'll take you through how to create real-world applications & software!",
+        "title": "Practice for contests!",
+        "description": "Have you ever wanted to do well programming contests but don't know where to start? Have you ever wanted to win prizes for your epic programming skills? Visit our school's online judge to solve practice problems and participate in monthly contests!",
+        "img": "/assets/about3.jpg"
+      },
+      {
+        "title": "Improve your skills!",
+        "description": "Have you ever wanted to learn competitive programming? Expand your knowledge of data structures and algorithms? Join us in the **competitive** division, and we will go through a full syllabus of competitive programming, covering everything from graph theory, to dynamic programming, and more!",
         "img": "/assets/about2.jpg"
       },
       {
         "title": "Think outside of the box...",
-        "description": "Do solving puzzles pique your interest more? Want to know how to design intricate and useful algorithms? Join us in the **competitive** division, and we will guide you through the world of competitive programming!",
+        "description": "Do solving puzzles pique your interest more? Want to improve your logic skills and learn how to solve difficult problems? Join the computer club and we will guide you through the logic and problem solving required for programming!",
         "img": "/assets/about1.jpg"
       }
     ]
@@ -99,47 +104,63 @@
     "title": "Meet the Team",
     "details": [
       {
-        "name": "Danyal Amini",
+        "name": "Pari Vansjalia",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["Competitive", "JavaScript", "C++", "Java"],
+        "languages": ["Development", "Java", "React", "Python"],
         "socials": {
-          "instagram": "https://www.instagram.com/tsscomputerclub/",
-          "github": "https://github.com/MysticalX99",
-          "personalSite": "https://tssoj.ca/"
+          "instagram": "https://www.instagram.com/parivansjalia/",
+          "github": "https://github.com/parivansjalia",
+          "personalSite": "https://github.com/parivansjalia"
         }
       },
       {
-        "name": "Adam Chen",
+        "name": "Cayden Wong",
         "grade": "Grade 12",
         "position": "President",
-        "languages": ["Competitive & Development", "C#", "Java", "C++"],
+        "languages": ["Competitive & Development", "Python", "C++", "Java"],
         "socials": {
-          "instagram": "https://www.instagram.com/theadamchen/",
-          "github": "https://github.com/encodeous",
-          "personalSite": "https://encodeous.cc"
-        }
-      },
-      {
-        "name": "Timothy Ivtchenko",
-        "grade": "Grade 12",
-        "position": "Vice President",
-        "languages": ["Development", "TypeScript", "C++", "Java"],
-        "socials": {
-          "instagram": "https://www.instagram.com/tim.ivtch/",
-          "github": "https://github.com/Terra-rian",
+          "instagram": "https://www.instagram.com/kurbydoo/",
+          "github": "https://github.com/kurbydoo",
           "personalSite": "https://tssoj.ca/"
         }
       },
       {
-        "name": "Ryan Javid",
+        "name": "Alan Liu",
+        "grade": "Grade 12",
+        "position": "President",
+        "languages": [
+          "Competitive",
+          "Java",
+          "Python",
+          "Scratch lol"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/alanliu11__/",
+          "github": "https://github.com/encodeous",
+          "personalSite": "https://tssoj.ca/"
+        }
+      },
+      {
+        "name": "Anton Lee",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["Competitive", "Python", "Java", "C++"],
+        "languages": ["✨ Media Coordinator ✨", "Java", "C", "C++"],
         "socials": {
-          "instagram": "https://www.instagram.com/ryanj_31/",
-          "github": "https://github.com/Ryan-Sadeghi-Javid",
+          "instagram": "https://www.instagram.com/leeantonymous/",
+          "github": "https://github.com/AntonymousCHL",
           "personalSite": "https://tssoj.ca/"
+        }
+      },
+      {
+        "name": "TBD",
+        "grade": "Grade NA",
+        "position": "Executive 2.0",
+        "languages": ["This can be you!"],
+        "socials": {
+          "instagram": "",
+          "github": "",
+          "personalSite": ""
         }
       }
     ]

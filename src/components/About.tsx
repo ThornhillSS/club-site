@@ -7,7 +7,7 @@ import NonSSR from './NonSSR';
 
 const About = () => {
     const { about } = config;
-    const [firstInfo, secondInfo] = about.info;
+    const [firstInfo, secondInfo, thirdInfo] = about.info;
 
     return (
         <section className={'bg-background py-8'} id='about'>
@@ -57,6 +57,24 @@ const About = () => {
                                 </NonSSR>
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                <div className={'flex flex-wrap'}>
+                    <div className={'w-5/6 sm:w-1/2 p-6 mt-20'}>
+                        <h3 className={'text-3xl text-gray-800 font-bold leading-none mb-3'}>
+                            {thirdInfo?.title}
+                        </h3>
+                        <p className={'text-gray-600'}>
+                            <NonSSR>
+                                <ReactMarkdown>
+                                    {thirdInfo!.description}
+                                </ReactMarkdown>
+                            </NonSSR>
+                        </p>
+                    </div>
+                    <div className={'w-full sm:w-1/2 p-6'}>
+                        <img className={'h-6/6'} src={thirdInfo?.img} alt={thirdInfo?.title} />
                     </div>
                 </div>
             </div>
