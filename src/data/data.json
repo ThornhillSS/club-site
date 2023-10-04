@@ -1,7 +1,7 @@
 {
   "club": {
     "name": "Thornhill Computer Club",
-    "logo": "/assets/logo.png"
+    "logo": "./assets/logo.png"
   },
   "navigation": [
     {
@@ -38,7 +38,7 @@
     ],
     "subtitle": "Join the Computer Club!",
     "description": "Computer Club at TSS is a place where you can learn n' talk about topics related to Computer Science, Programming, Tech, or anything you want really. Come join our community by clicking the links below! **We have meetings on Fridays after school (room 221), so you can just drop by as well.**",
-    "img": "/assets/code-background.jpg",
+    "img": "./assets/code-background.jpg",
     "primaryAction": {
       "text": "Hop in our Discord",
       "href": "https://tssoj.ca/discord"
@@ -54,12 +54,12 @@
       {
         "title": "Create something cool!",
         "description": "Are you already well-versed in coding? Want to take it further and build something? Join the **development** division, and we'll take you through how to create real-world applications & software!",
-        "img": "/assets/about2.jpg"
+        "img": "./assets/about2.jpg"
       },
       {
         "title": "Think outside of the box...",
         "description": "Do solving puzzles pique your interest more? Want to know how to design intricate and useful algorithms? Join us in the **competitive** division, and we will guide you through the world of competitive programming!",
-        "img": "/assets/about1.jpg"
+        "img": "./assets/about1.jpg"
       }
     ]
   },
@@ -71,27 +71,27 @@
       {
         "name": "C / C++",
         "description": "A low-level and general-purpose programming language that is ideal for developing firmware or portable applications.",
-        "icon": "/assets/cplusplus-logo.png"
+        "icon": "./assets/cplusplus-logo.png"
       },
       {
         "name": "Python",
         "description": "A high-level and general-purpose programming language often used to build websites and software, automate tasks, and conduct data analysis.",
-        "icon": "/assets/python-logo.png"
+        "icon": "./assets/python-logo.png"
       },
       {
         "name": "Java",
         "description": "A general-purpose, class-based, object-oriented programming language designed for having lesser implementation dependencies.",
-        "icon": "/assets/java-icon.png"
+        "icon": "./assets/java-icon.png"
       },
       {
         "name": "Typescript",
         "description": "A strongly typed, object oriented, compiled programming language that is a superset of JavaScript.",
-        "icon": "/assets/ts-icon.png"
+        "icon": "./assets/ts-icon.png"
       },
       {
         "name": "And others too!",
         "description": "Odds are, we'll be familiar with the problem that you're trying to solve. If not, we might be able to point you to where the solution might be :)",
-        "icon": "/assets/question-icon.png"
+        "icon": "./assets/question-icon.png"
       }
     ]
   },
@@ -102,7 +102,12 @@
         "name": "Danyal Amini",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["Competitive", "JavaScript", "C++", "Java"],
+        "languages": [
+          "Competitive",
+          "JavaScript",
+          "C++",
+          "Java"
+        ],
         "socials": {
           "instagram": "https://www.instagram.com/tsscomputerclub/",
           "github": "https://github.com/MysticalX99",
@@ -113,7 +118,12 @@
         "name": "Adam Chen",
         "grade": "Grade 12",
         "position": "President",
-        "languages": ["Competitive & Development", "C#", "Java", "C++"],
+        "languages": [
+          "Competitive & Development",
+          "C#",
+          "Java",
+          "C++"
+        ],
         "socials": {
           "instagram": "https://www.instagram.com/theadamchen/",
           "github": "https://github.com/encodeous",
@@ -124,7 +134,12 @@
         "name": "Timothy Ivtchenko",
         "grade": "Grade 12",
         "position": "Vice President",
-        "languages": ["Development", "TypeScript", "C++", "Java"],
+        "languages": [
+          "Development",
+          "TypeScript",
+          "C++",
+          "Java"
+        ],
         "socials": {
           "instagram": "https://www.instagram.com/tim.ivtch/",
           "github": "https://github.com/Terra-rian",
@@ -135,7 +150,12 @@
         "name": "Ryan Javid",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["Competitive", "Python", "Java", "C++"],
+        "languages": [
+          "Competitive",
+          "Python",
+          "Java",
+          "C++"
+        ],
         "socials": {
           "instagram": "https://www.instagram.com/ryanj_31/",
           "github": "https://github.com/Ryan-Sadeghi-Javid",

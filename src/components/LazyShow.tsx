@@ -28,7 +28,6 @@ function useOnScreen(ref: MutableRefObject<HTMLDivElement | null>, rootMargin = 
     return isIntersecting;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const LazyShow = ({ children }: { children: string | number | React.ReactElement<any, string | React.JSXElementConstructor<any>> }) => {
     const controls = useAnimation();
     const rootRef = useRef<HTMLDivElement>(null);
