@@ -16,16 +16,24 @@ module.exports = {
         },
         extend: {
             colors: {
-                primary: '#ec4755',
-                secondary: '#a12c34',
+                primary: '#006699',
+                secondary: '#0099ff',
                 tertiary: '#99a0a3',
                 border: '#1a2e35',
                 background: '#ffffff',
             },
-            animation: {
-                vote: 'vote 1s ease-in-out',
+            backgroundImage: {
+                'instagram-gradient': 'linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)',
             },
             keyframes: {
+                'gradient-fade': {
+                    '0%': {
+                        backgroundSize: '0% 100%',
+                    },
+                    '100%': {
+                        backgroundSize: '100% 100%',
+                    },
+                },
                 vote: {
                     '0%, 100%': {
                         transform: 'rotate(0deg)',
@@ -38,8 +46,16 @@ module.exports = {
                     },
                 },
             },
+            animation: {
+                vote: 'vote 1s ease-in-out',
+                'gradient-fade': 'gradient-fade 1s ease-in-out',
+            },
         },
     },
-    variants: {},
+    variants: {
+        extend: {
+            backgroundImage: ['hover'],
+        },
+    },
     plugins: [],
 };

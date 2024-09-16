@@ -42,13 +42,27 @@ const MainHero = () => {
 
                 <div className={'mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'}>
                     <div className={'rounded-md shadow'}>
-                        <a href={mainHero.primaryAction.href} className={'w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-sky-500 hover:bg-sky-700 hover:text-gray-50 md:py-4 md:text-lg md:px-10 delay-75 transition'} target='_blank' rel='noreferrer'>
-                            {mainHero.primaryAction.text}
+                        <a
+                            href={mainHero.primaryAction.href}
+                            className="gradient-btn discord relative w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background md:text-sky-600 hover:text-background bg-background overflow-hidden transition duration-300 ease-in-out"
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span className="relative z-10">
+                                {mainHero.primaryAction.text}
+                            </span>
                         </a>
                     </div>
-                    <div className={'mt-3 sm:mt-0 sm:ml-3'}>
-                        <a href={mainHero.secondaryAction.href} className={'w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-sky-600 bg-background md:py-4 md:text-lg md:px-10 delay-75 transition'} target='_blank' rel='noreferrer'>
-                            {mainHero.secondaryAction.text}
+                    <div className={'rounded-md shadow mt-3 sm:mt-0 sm:ml-3'}>
+                        <a
+                            href={mainHero.secondaryAction.href}
+                            className="gradient-btn instagram relative w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background md:text-sky-600 hover:text-background bg-background overflow-hidden transition duration-300 ease-in-out"
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <span className="relative z-10">
+                                {mainHero.secondaryAction.text}
+                            </span>
                         </a>
                     </div>
                 </div>

@@ -3,21 +3,60 @@
 @tailwind utilities;
 
 :root {
-    --color-primary: #ec4755;
-    --color-secondary: #a12c34;
+    --color-primary: #006699;
+    --color-secondary: #0099ff;
     --color-tertiary: #99a0a3;
+    --color-border: #1a2e35;
+    --color-background: #ffffff;
 }
 
 a { 
-    @apply text-red-700;
+    @apply text-blue-700;
 }
 
 a:hover {
-    @apply border-b-2 border-red-700;
 }
 
 .content p {
     @apply my-6;
+}
+
+.gradient-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.gradient-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: red;
+    transform: scaleX(1);
+    /* Start with the gradient not visible */
+    transform-origin: left;
+    /* Ensure it scales from the left */
+    transition: transform 0.5s ease-out;
+}
+
+.gradient-btn.instagram::after {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.gradient-btn.discord::after {
+    background: linear-gradient(to right, #5865F2, #404EED);
+}
+
+.gradient-btn:hover::after {
+    transform: scaleX(1);
+}
+
+@media (min-width: 641px) {
+    .gradient-btn::after {
+        transform: scaleX(0);
+    }
 }
 
 .content ul {
