@@ -14,9 +14,6 @@ a {
     @apply text-blue-700;
 }
 
-a:hover {
-}
-
 .content p {
     @apply my-6;
 }
@@ -33,7 +30,6 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: red;
     transform: scaleX(1);
     /* Start with the gradient not visible */
     transform-origin: left;
@@ -53,7 +49,7 @@ a:hover {
     transform: scaleX(1);
 }
 
-@media (min-width: 641px) {
+@media (min-width: 768px) {
     .gradient-btn::after {
         transform: scaleX(0);
     }
