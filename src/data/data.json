@@ -46,10 +46,6 @@
     "secondaryAction": {
       "text": "Join our Instagram group",
       "href": "https://www.instagram.com/thornhillcomputerclub/"
-    },
-    "tertiaryAction": {
-      "text": "Enroll in our Classroom",
-      "href": "https://classroom.google.com/c/NjQyMzY1ODUzNzQ3?cjc=35c43uy"
     }
   },
   "about": {
@@ -108,74 +104,63 @@
     "title": "Meet the Team",
     "details": [
       {
-        "name": "Isaac Lu",
+        "name": "Pari Vansjalia",
         "grade": "Grade 12",
         "position": "Executive",
-        "languages": ["Competitive", "C++", "Python", "Java"],
+        "languages": ["Development", "Java", "React", "Python"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=5IjmOSFtoJc",
-          "github": "https://github.com/ThornhillSS",
-          "personalSite": "https://tssoj.ca/"
+          "instagram": "https://www.instagram.com/parivansjalia/",
+          "github": "https://github.com/parivansjalia",
+          "personalSite": "https://github.com/parivansjalia"
         }
       },
       {
-        "name": "Eric Chen",
+        "name": "Cayden Wong",
         "grade": "Grade 12",
         "position": "President",
-        "languages": ["Competitive & Development", "JavaScript", "Java", "Python"],
+        "languages": ["Competitive & Development", "Python", "C++", "Java"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=5IjmOSFtoJc",
-          "github": "https://github.com/ThornhillSS",
+          "instagram": "https://www.instagram.com/kurbydoo/",
+          "github": "https://github.com/kurbydoo",
           "personalSite": "https://tssoj.ca/"
         }
       },
       {
-        "name": "Derek Gu",
+        "name": "Alan Liu",
         "grade": "Grade 12",
-        "position": "Vice President",
+        "position": "President",
         "languages": [
           "Competitive",
-          "Python",
           "Java",
-          "HTML/CSS"
+          "Python",
+          "Scratch lol"
         ],
         "socials": {
-          "instagram": "https://www.instagram.com/gerekdu/",
+          "instagram": "https://www.instagram.com/alanliu11__/",
           "github": "https://github.com/ThornhillSS",
           "personalSite": "https://tssoj.ca/"
         }
       },
       {
-        "name": "Bella Liu",
-        "grade": "Grade 11",
-        "position": "Executive 2.0",
-        "languages": ["✨ Media Coordinator ✨", "Java", "C++", "C#"],
-        "socials": {
-          "instagram": "https://www.instagram.com/bel_laaa.lzx/",
-          "github": "https://github.com/ThornhillSS",
-          "personalSite": "https://tssoj.ca/"
-        }
-      },
-      {
-        "name": "Steve Mijuskovic",
+        "name": "Anton Lee",
         "grade": "Grade 12",
-        "position": "Executive 2.0",
-        "languages": ["Development", "Java", "C++", "Python"],
+        "position": "Executive",
+        "languages": ["✨ Media Coordinator ✨", "Java", "C", "C++"],
         "socials": {
-          "instagram": "https://www.instagram.com/mijuskovicsteve/",
-          "github": "https://github.com/ThornhillSS",
+          "instagram": "https://www.instagram.com/leeantonymous/",
+          "github": "https://github.com/AntonymousCHL",
           "personalSite": "https://tssoj.ca/"
         }
       },
       {
-        "name": "Stefan Diaconescu",
-        "grade": "Grade 12",
+        "name": "TBD",
+        "grade": "Grade NA",
         "position": "Executive 2.0",
-        "languages": ["Development", "Java", "Python", "C#"],
+        "languages": ["This can be you!"],
         "socials": {
-          "instagram": "https://www.youtube.com/watch?v=5IjmOSFtoJc",
-          "github": "https://github.com/ThornhillSS",
-          "personalSite": "https://tssoj.ca/"
+          "instagram": "",
+          "github": "",
+          "personalSite": ""
         }
       }
     ]
@@ -196,8 +181,7 @@
           "personalSite": "https://tssoj.ca/"
         }
       }
-    ],
-    "comment": "why is this here??"
+    ]
   },
   "footer": {
     "sections": [

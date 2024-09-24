@@ -45,10 +45,6 @@ a {
     background: linear-gradient(to right, #5865F2, #404EED);
 }
 
-.gradient-btn.classroom::after {
-    background: linear-gradient(to right, #36B840, #16A05D);
-}
-
 .gradient-btn:hover::after {
     transform: scaleX(1);
 }

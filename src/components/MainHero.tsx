@@ -65,18 +65,6 @@ const MainHero = () => {
                             </span>
                         </a>
                     </div>
-                    <div className={'rounded-md shadow mt-3 sm:mt-0 sm:ml-3'}>
-                        <a
-                            href={mainHero.tertiaryAction.href}
-                            className="gradient-btn classroom relative w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background md:text-sky-600 hover:text-background bg-background overflow-hidden transition duration-300 ease-in-out"
-                            target='_blank'
-                            rel='noreferrer'
-                        >
-                            <span className="relative z-10">
-                                {mainHero.tertiaryAction.text}
-                            </span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </main>
